@@ -76,6 +76,7 @@
                                 <parentVersion>${project.parent.version}</parentVersion>
 <!--                                <implFolder>null</implFolder>-->
                             </configOptions>
+                            <templateDirectory>${project.build.resources[0].directory}/mustaches/server</templateDirectory>
                             <output>${project.build.directory}/server</output>
                             <addCompileSourceRoot>false</addCompileSourceRoot>
                         </configuration>
