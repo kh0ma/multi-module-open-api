@@ -10,7 +10,8 @@ on:
         description: 'Person to greet'
         required: true
         default: 'Mona the Octocat'
-  
+  push:
+    branches: main
   pull_request:
     branches: main
 
